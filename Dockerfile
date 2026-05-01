@@ -9,9 +9,9 @@ COPY . .
 
 ENV MCP_TRANSPORT=sse
 ENV MCP_HOST=0.0.0.0
-ENV MCP_PORT=8000
+ENV MCP_PORT=7860
 ENV PROPOSITION_WORK_DIR=/tmp/proposition-sessions
 
-EXPOSE 8000
+EXPOSE 7860
 
 CMD ["python", "server.py"]
