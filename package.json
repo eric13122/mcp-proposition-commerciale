@@ -1,0 +1,24 @@
+{
+  "name": "@antipodes-medical/mcp-proposition-commerciale",
+  "version": "1.0.0",
+  "description": "Serveur MCP pour générer des propositions commerciales PPTX - Antipodes Médical",
+  "keywords": ["mcp", "powerpoint", "pptx", "proposal", "sales", "antipodes"],
+  "author": "Antipodes Médical",
+  "license": "MIT",
+  "bin": {
+    "mcp-proposition-commerciale": "./bin/run.sh"
+  },
+  "files": [
+    "server.py",
+    "requirements.txt",
+    "config/",
+    "resources/",
+    "scripts/",
+    "assets/",
+    "bin/"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/antipodes-medical/mcp-proposition-commerciale"
+  }
+}
