@@ -13,73 +13,73 @@ Cout de vente = THH (heures) / 7 (heures/jour) * TJM (tarif journalier)
 ## Roles et TJM
 
 Les tarifs journaliers sont configures dans le fichier `config/pricing.json`.
-Voici les roles disponibles avec leurs TJM par defaut :
+Source : Grille TJM officielle Antipodes Medical.
 
-| Role | TJM (EUR HT) | Categorie |
-|------|---------------|-----------|
-| Directeur Conseil general | 1200 | Direction |
-| Directeur Communication | 1100 | Direction |
-| Directeur Marketing | 1100 | Direction |
-| Directeur Artistique | 1000 | Direction |
-| Directeur Projet | 1000 | Direction |
-| Directeur conseil SEO | 1100 | Direction |
-| Directeur Scientifique | 1200 | Direction |
-| DSI | 1100 | Direction |
-| Responsable Marketing | 850 | Management |
-| Responsable de projet Site internet | 850 | Management |
-| Responsable controle qualite Site internet | 800 | Management |
-| Responsable Google My Business | 750 | Management |
-| Responsable editorial | 800 | Management |
-| Growth Marketing Manager | 850 | Management |
-| Chef de projet Digital | 750 | Projet |
-| Chef de projet Design | 750 | Projet |
-| Chef de projet Social Media | 700 | Projet |
-| Chef de Projet Ads | 750 | Projet |
-| Chef de projet SEO junior | 600 | Projet |
-| Chef de projet Data & Reporting | 750 | Projet |
-| Chef de projet Technique senior | 850 | Projet |
-| Chef de Projet Production audiovisuelle | 800 | Projet |
-| Chef de projet Redaction | 700 | Projet |
-| Assistant Responsable Marketing | 550 | Projet |
-| Expert SEA | 800 | Expertise |
-| Expert SEO technique | 800 | Expertise |
-| Expert Social Ads | 750 | Expertise |
-| Expert Social Media | 700 | Expertise |
-| Lead developpeur | 900 | Tech |
-| Developpeur / Integrateur senior | 800 | Tech |
-| Developpeur / Integrateur junior | 550 | Tech |
-| UX designer | 800 | Design |
+| Role | TJM (EUR HT) | Pole |
+|------|---------------|------|
+| Directeur Conseil general | 1450 | Direction |
+| Directeur Communication | 1250 | Marketing |
+| Directeur Marketing | 1250 | Marketing |
+| Directeur Artistique | 1250 | Marketing |
+| Directeur Projet | 1150 | Marketing |
+| Growth Marketing Manager | 1250 | Marketing |
+| Concepteur Redacteur | 950 | Marketing |
+| Expert SEA | 950 | Marketing |
+| Expert Social Ads | 950 | Marketing |
+| Responsable Marketing | 950 | Marketing |
+| Chef de Projet Ads | 750 | Marketing |
+| Assistant Responsable Marketing | 400 | Marketing |
+| Directeur conseil SEO | 1150 | SEO |
+| Expert SEO technique | 850 | SEO |
+| Chef de projet Data & Reporting | 650 | SEO |
+| Responsable Google My Business | 650 | SEO |
+| Chef de projet Digital | 650 | SEO |
+| Chef de projet SEO junior | 550 | SEO |
+| Operateur de saisie | 350 | SEO |
 | Webdesigner senior | 750 | Design |
-| Webdesigner junior | 500 | Design |
-| Designer 3D senior | 800 | Design |
-| Graphiste Crea | 700 | Design |
-| Graphiste Exe | 550 | Design |
-| Concepteur Redacteur | 700 | Contenu |
-| Redacteur | 550 | Contenu |
-| Operateur de saisie | 350 | Contenu |
-| Community Manager | 600 | Social |
-| Community Manager junior | 450 | Social |
-| Realisateur | 900 | Production |
-| Cadreur | 700 | Production |
-| Monteur | 650 | Production |
-| Motion Designer 3D Crea | 800 | Production |
-| Motion Designer 3D Exe | 600 | Production |
-| Motion Designer 2D Crea | 750 | Production |
-| Motion Designer 2D Exe | 550 | Production |
+| UX designer | 750 | Design |
+| Chef de projet Design | 650 | Design |
+| Webdesigner junior | 550 | Design |
+| Graphiste Crea | 850 | Design |
+| Graphiste Exe | 700 | Design |
+| Expert Social Media | 850 | Social Media |
+| Chef de projet Social Media | 750 | Social Media |
+| Community Manager | 650 | Social Media |
+| Community Manager junior | 450 | Social Media |
+| Realisateur | 950 | Audiovisuel |
+| Motion Designer 3D Crea | 850 | Audiovisuel |
+| Chef de Projet Production audiovisuelle | 750 | Audiovisuel |
+| Cadreur | 750 | Audiovisuel |
+| Motion Designer 2D Crea | 750 | Audiovisuel |
+| Designer 3D senior | 750 | Audiovisuel |
+| Monteur | 600 | Audiovisuel |
+| Motion Designer 3D Exe | 550 | Audiovisuel |
+| Motion Designer 2D Exe | 450 | Audiovisuel |
+| DSI | 1250 | Technique |
+| Lead developpeur | 850 | Technique |
+| Chef de projet Technique senior | 750 | Technique |
+| Developpeur / Integrateur senior | 750 | Technique |
+| Developpeur / Integrateur junior | 650 | Technique |
+| Directeur Scientifique | 1250 | Redaction |
+| Chef de projet Redaction | 750 | Redaction |
+| Responsable editorial | 750 | Redaction |
+| Redacteur | 650 | Redaction |
+| Responsable de projet Site internet | 750 | Site internet |
+| Responsable controle qualite Site internet | 750 | Site internet |
 
 ## Exemples de calcul pour les slides de pricing
 
 ### Prestation ponctuelle (setup)
 ```
-Audit SEO : Expert SEO technique x 14h = 14/7 * 800 = 1 600 EUR HT
+Audit SEO : Expert SEO technique x 14h = 14/7 * 850 = 1 700 EUR HT
 Site web : Webdesigner senior x 35h + Dev senior x 28h
-         = (35/7 * 750) + (28/7 * 800) = 3 750 + 3 200 = 6 950 EUR HT
+         = (35/7 * 750) + (28/7 * 750) = 3 750 + 3 000 = 6 750 EUR HT
 ```
 
 ### Prestation mensuelle (recurrente)
 ```
-Social Media : Community Manager x 21h/mois = 21/7 * 600 = 1 800 EUR HT/mois
-SEO : Expert SEO x 14h/mois = 14/7 * 800 = 1 600 EUR HT/mois
+Social Media : Community Manager x 21h/mois = 21/7 * 650 = 1 950 EUR HT/mois
+SEO : Expert SEO x 14h/mois = 14/7 * 850 = 1 700 EUR HT/mois
 ```
 
 ## Notes
