@@ -1,3 +1,12 @@
+---
+title: Mcp Proposition Commerciale
+emoji: 🚀
+colorFrom: green
+colorTo: purple
+sdk: docker
+pinned: false
+---
+
 # Proposition Commerciale MCP Server
 
 Serveur MCP (Model Context Protocol) pour générer des propositions commerciales Antipodes Médical au format PPTX. Compatible avec Claude Desktop, Cursor, Windsurf, et tout client MCP.
